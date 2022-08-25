@@ -27,7 +27,7 @@ public class Guia6Ej21 {
         
         for (i=0; i<10; i++){
             for (j=0; j<10; j++){
-                if (matriz10[i][j] == 36 && matriz10[i][j+1] == 5 && matriz10[i][j+2] == 67 && matriz10[i+1][j] == 89 && matriz10[i+1][j+1] == 90 && matriz10[i+1][j+2] == 75 && matriz10[i+2][j] == 14 && matriz10[i+2][j+1] == 22 && matriz10[i+2][j+2] == 26){
+                if (matriz10[i][j] == matriz3[0][0] && matriz10[i][j+1] == 5 && matriz10[i][j+2] == 67 && matriz10[i+1][j] == 89 && matriz10[i+1][j+1] == 90 && matriz10[i+1][j+2] == 75 && matriz10[i+2][j] == 14 && matriz10[i+2][j+1] == 22 && matriz10[i+2][j+2] == 26){
                     coordI = i;
                     coordJ = j;
                     System.out.println("La matriz P se encuentra dentro de la matriz M. Las coordenadas del primer elemento son " + coordI + "," + coordJ);
